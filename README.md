@@ -104,6 +104,8 @@ Use any Bluetooth controller app to send commands.
 
 🎥 Demo Video
 
+Photo
 
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/fb14a535-4a5b-4f88-9da0-cfb7d94e3cf4" />
 
 
